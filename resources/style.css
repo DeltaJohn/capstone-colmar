@@ -10,13 +10,37 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  vertical-align:middle;
   height: 4rem;
   width: 100%;
   background-color: gray;
 }
 
+.logo {
+  display: flex;
+}
+
+.logo img {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  vertical-align: middle;
+}
+
+.logo span {
+  align-self: center;
+  font-size: 1.2rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
 .navigation a {
   text-decoration: none;
   color: black;
+  font-size: 1.2rem;
+  margin: 0 .5rem;
 
 }
